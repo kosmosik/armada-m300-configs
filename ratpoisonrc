@@ -1,0 +1,21 @@
+# Autostart
+exec xsetroot -solid black -cursor_name left_ptr
+exec xrdb -merge ~/.Xresources
+
+# Looks
+set barborder 2
+set bargravity c
+set barpadding 4 4
+set border 2
+set bgcolor black
+set bwcolor gray
+set fgcolor cyan
+set font -*-helvetica-bold-r-normal-*-17-*-*-*-*-*-*-*
+set fwcolor cyan
+set padding 4 4
+
+# Windows
+set winfmt %n %s %t
+set wingravity c
+set winname title
+set winliststyle row
