@@ -1,5 +1,5 @@
 # Autostart
-exec xsetroot -solid black -cursor_name left_ptr
+exec xsetroot -solid black -cursor_name right_ptr
 exec xrdb -merge ~/.Xresources
 
 # Looks
@@ -10,12 +10,51 @@ set border 2
 set bgcolor black
 set bwcolor gray
 set fgcolor cyan
-set font -*-helvetica-bold-r-normal-*-17-*-*-*-*-*-*-*
+set font -*-helvetica-*-r-*-*-12-*-*-*-*-*-*-*
 set fwcolor cyan
-set padding 4 4
+set padding 2 2
 
 # Windows
 set winfmt %n %s %t
 set wingravity c
 set winname title
-set winliststyle row
+set winliststyle column
+
+# Bindings
+bind Escape abort
+unbind t
+unbind C-t
+unbind C-g
+unbind A
+unbind C-A
+unbind C-K
+unbind C-Return
+unbind a
+unbind C-a
+unbind b
+unbind C-b
+unbind C-c
+unbind exclam
+unbind C-exclam
+unbind C-i
+unbind C-k
+unbind C-l
+unbind C-m
+unbind C-n
+unbind C-p
+unbind C-apostrophe
+unbind C-space
+unbind v
+unbind C-v
+unbind V
+unbind C-V
+unbind C-w
+unbind C-s
+unbind C-S
+unbind C-f
+unbind C-r
+unbind C-underscore
+unbind C-u
+unbind C-x
+unbind N
+unbind P
