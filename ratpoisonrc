@@ -1,6 +1,7 @@
 # Autostart
 exec xsetroot -solid black -cursor_name right_ptr
 exec xrdb -merge ~/.Xresources
+exec setxkbmap pl
 
 # Looks
 set barborder 2
