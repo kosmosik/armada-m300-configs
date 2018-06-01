@@ -1,0 +1,6 @@
+http://dl-cdn.alpinelinux.org/alpine/latest-stable/main
+http://dl-4.alpinelinux.org/alpine/v3.7/main
+@community http://dl-4.alpinelinux.org/alpine/v3.7/community
+@edge_main http://dl-4.alpinelinux.org/alpine/edge/main
+@edge_community http://dl-4.alpinelinux.org/alpine/edge/community
+@edge_testing http://dl-4.alpinelinux.org/alpine/edge/testing
